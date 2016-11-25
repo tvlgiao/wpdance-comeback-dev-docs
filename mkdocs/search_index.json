@@ -1,0 +1,74 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "", 
+            "title": "Index"
+        }, 
+        {
+            "location": "/setup-dev/", 
+            "text": "C\u00e0i wp cli\n\n\n\n\n\n\nCopy file wp-config-dev.php th\u00e0nh wp-config.php\n\n\n\n\n\n\nC\u1ea5u h\u00ecnh l\u1ea1i file wp-config.php\n\n\n\n\n\n\nImport file \nwp.sql\n v\u00e0o database b\u1eb1ng l\u1ec7nh:\n\n\n\n\n\n\nwp db import wp.sql\n\n\n\n\n\n\nThay \u0111\u1ecba ch\u1ec9 URL c\u0169 b\u1eb1ng \u0111\u1ecba ch\u1ec9 m\u1edbi, b\u1eb1ng l\u1ec7nh wp-cli:\n\n\n\n\nwp search-replace '127.0.0.1/wp_clara' '127.0.0.1/wp_comeback_dev' --all-tables --recurse-objects\nwp search-replace '127.0.0.1\\/wp_clara' '127.0.0.1\\/wp_comeback_dev' --all-tables --recurse-objects\n\n\n\n\n\n\n\n\nM\u1edf web http://127.0.0.1/wp_comeback_dev/ ki\u1ec3m tra ch\u1ea1y \u0111\u01b0\u1ee3c ch\u01b0a.\n\n\n\n\n\n\nT\u00e0i kho\u1ea3n admin: tvlgiao / 123456", 
+            "title": "Setup Development Site"
+        }, 
+        {
+            "location": "/home-comeback-furnish/", 
+            "text": "Page: Home Comeback Furnish\n\n\nHeader\n\n\nCh\u1ec9nh trong \nHTML Blocks\n \n \nHeader Comeback Furnish\n \n\n\nCSS ph\u1ea7n tr\u00ean header:\n\n\n.site-header .top-header {\n    ...\n}\n\n\n\n\nCSS search box \u1edf header:\n\n\n.site-header .search-form .search-field {\n    ...\n}\n\n\n\n\nCSS dropdown cart \u1edf header:\n\n\n.site-header .widget_shopping_mini_cart.style-icon-left {\n\n}\n\n\n\n\nMain Content\n\n\nSlideshow\n\n\nSlideshow copy t\u1eeb slideshow \nhome-comeback-furniture\n v\u00e0 \u0111\u1ed5i t\u00ean m\u1edbi th\u00e0nh \nhome-comeback-furnish\n.\n\n\nBanners\n\n\nC\u00e1c banner l\u00e0m gi\u1ed1ng nh\u01b0 \nHome Comeback Jewelry\n\n\nProduct Tabs\n\n\nCh\u1ec9nh CSS t\u1eeb:\n\n\n.wpdanceclaratheme-tabs-style-3.vc_tta-color-grey.vc_tta-style-flat {\n    ...\n}\n\n\n\n\nCh\u00fa \u00fd class \nwpdanceclaratheme-tabs-style-3\n \u0111\u01b0\u1ee3c th\u00eam v\u00f4 \u0111\u1ec3 ch\u1ec9nh ri\u00eang tab c\u00f3 style n\u00e0y.\n\n\nProducts List\n\n\nCh\u1ec9nh CSS t\u1eeb:\n\n\n.wpdanceclaratheme-products-layout-11 ul.products li.product {\n    ...\n}\n\n\n\n\nBlog\n\n\nXem \nVisual Composer\n \n \nGrid Builder\n \n \nWPDanceClaraTheme - Comeback Furnish - Post Image Left\n ho\u1eb7c t\u1ea1o m\u1edbi copy, tham kh\u1ea3o t\u1eeb c\u00e1c item c\u00f3 s\u1eb3n.\n\n\nFooter\n\n\nNewsletter form\n\n\nCh\u1ec9nh CSS t\u1eeb:\n\n\n.site-footer .newsletter-form {\n\n}\n\n\n\n\n3 Icons\n\n\nCh\u1ec9nh trong VC t\u1eeb outline th\u00e0nh flat", 
+            "title": "Home Comeback Furnish"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#page-home-comeback-furnish", 
+            "text": "", 
+            "title": "Page: Home Comeback Furnish"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#header", 
+            "text": "Ch\u1ec9nh trong  HTML Blocks     Header Comeback Furnish    CSS ph\u1ea7n tr\u00ean header:  .site-header .top-header {\n    ...\n}  CSS search box \u1edf header:  .site-header .search-form .search-field {\n    ...\n}  CSS dropdown cart \u1edf header:  .site-header .widget_shopping_mini_cart.style-icon-left {\n\n}", 
+            "title": "Header"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#main-content", 
+            "text": "", 
+            "title": "Main Content"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#slideshow", 
+            "text": "Slideshow copy t\u1eeb slideshow  home-comeback-furniture  v\u00e0 \u0111\u1ed5i t\u00ean m\u1edbi th\u00e0nh  home-comeback-furnish .", 
+            "title": "Slideshow"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#banners", 
+            "text": "C\u00e1c banner l\u00e0m gi\u1ed1ng nh\u01b0  Home Comeback Jewelry", 
+            "title": "Banners"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#product-tabs", 
+            "text": "Ch\u1ec9nh CSS t\u1eeb:  .wpdanceclaratheme-tabs-style-3.vc_tta-color-grey.vc_tta-style-flat {\n    ...\n}  Ch\u00fa \u00fd class  wpdanceclaratheme-tabs-style-3  \u0111\u01b0\u1ee3c th\u00eam v\u00f4 \u0111\u1ec3 ch\u1ec9nh ri\u00eang tab c\u00f3 style n\u00e0y.", 
+            "title": "Product Tabs"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#products-list", 
+            "text": "Ch\u1ec9nh CSS t\u1eeb:  .wpdanceclaratheme-products-layout-11 ul.products li.product {\n    ...\n}", 
+            "title": "Products List"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#blog", 
+            "text": "Xem  Visual Composer     Grid Builder     WPDanceClaraTheme - Comeback Furnish - Post Image Left  ho\u1eb7c t\u1ea1o m\u1edbi copy, tham kh\u1ea3o t\u1eeb c\u00e1c item c\u00f3 s\u1eb3n.", 
+            "title": "Blog"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#footer", 
+            "text": "", 
+            "title": "Footer"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#newsletter-form", 
+            "text": "Ch\u1ec9nh CSS t\u1eeb:  .site-footer .newsletter-form {\n\n}", 
+            "title": "Newsletter form"
+        }, 
+        {
+            "location": "/home-comeback-furnish/#3-icons", 
+            "text": "Ch\u1ec9nh trong VC t\u1eeb outline th\u00e0nh flat", 
+            "title": "3 Icons"
+        }
+    ]
+}
